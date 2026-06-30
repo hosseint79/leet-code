@@ -3,7 +3,6 @@
  * @param {string} word
  * @return {number}
  */
-
 var numOfStrings = function(patterns, word) {
     
     let finalNumber = 0
@@ -15,5 +14,3 @@ var numOfStrings = function(patterns, word) {
 
     return finalNumber
 };
-
-console.log("numOfStrings",numOfStrings(["abcd","abc","bc","d"],"abc"))
